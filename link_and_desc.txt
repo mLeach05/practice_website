@@ -1,0 +1,4 @@
+link: https://mleach05.github.io/practice_website/
+
+styling: 
+I changed the fonts and font sizes of most of the text, as well as the font colors and the background for the <p> tag on the about page. I also customized the navbar, giving it a background, changing colors on hover/based on what was active. I added background music to the about me page, as well as a custom background. I changed the default <ul> bullet points to empty circles, and then made everything centered, and made the image on the about me page centered with a border. 
