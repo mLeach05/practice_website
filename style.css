@@ -1,13 +1,15 @@
 body.aboutmebody {
   padding-top: 60px;
   background-image: url(back.gif);
+  background-size:fill;
+  background-clip: border-box;
 }
 body.homepagebody {
   padding-top: 100px;
   background-color: lightgray;
 }   
 .navbar {
-    background-color: #228B22;
+    background-color: #65c406;
     text-align: center;
     position: fixed;
     top:0;
@@ -18,6 +20,7 @@ body.homepagebody {
     font-size: 60px;
     font-style: bold;
     font-family: papyrus;
+
 }
 
 img.aboutmephoto {
@@ -33,12 +36,13 @@ img.aboutmephoto {
 
 body.aboutmebody p {
     font-size: 24px;
-    font-family: comic-sans-ms;
+    font-family: "Comic Sans MS", "Comic Sans";
     margin: 20px;
     background-color: violet;
     padding: 15px;
     border-radius: 10px;
     border: 2px solid black;
+    text-align: center;
 
 }
 
@@ -52,6 +56,7 @@ body.aboutmebody h1 {
     border: 2px solid rgb(255, 251, 0);
     stroke-width: 200%;
     font-style: bold, italic;
+    text-align: center;
 
 }
 
@@ -63,9 +68,17 @@ body.aboutmebody h3 {
     padding: 15px;
     border-radius: 10px;
     border: 2px solid black;
+    text-align: center;
 
 }
 
 body.aboutmebody ul {
-  background-color: lightblue; /* Sets a light blue background for the entire unordered list */
+  background-color: lightblue;
+  font-size: 24px;
+  font-family: comic-sans-ms;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  list-style: circle;
 }
